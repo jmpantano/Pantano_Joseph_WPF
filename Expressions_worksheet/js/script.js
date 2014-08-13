@@ -11,10 +11,11 @@ var pizza = 4; //number of pizzas
 var slices = 10; //number of slices per pizza
 var people = 5; //number of people at the party
 var slicesEaten = pizza * slices / people; //how many slices did they eat?
-console.log("Each person ate " + slicesEaten + "slices of pizza at the party.") //write "Each person ate 8 slices of pizza at the party." to the console
+console.log("Each person ate " + slicesEaten + " slices of pizza at the party.") //write "Each person ate 8 slices of pizza at the party." to the console
 
 //Slice of Pie Part 2
-
+var sparkySlice = pizza * slices % people; //find the remainder of whole slices
+console.log("Sparky got " + sparkySlice + " slices of pizza."); //write "Sparky got 0 slices of pizza." to the console
 
 //Average Shopping Bill
 
