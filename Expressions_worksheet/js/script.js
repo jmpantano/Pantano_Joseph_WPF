@@ -5,7 +5,6 @@ var years = 1; //human years
 var dogYears = years * 7; //dog years
 var sparkyAge = "Sparky is " + years + " human years old, which is " + dogYears + " in dog years."; //Sparky's age
 console.log(sparkyAge); //print the var sparkyAge to the console
-alert(sparkyAge);
 
 //Slice of Pie Part 1
 var pizza = 4; //number of pizzas
