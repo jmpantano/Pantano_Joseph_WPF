@@ -24,3 +24,10 @@ var avgCost = totalCost / 5; //divide totalCost by 5 to find average
 console.log("You have spent a total of $" + totalCost + " on groceries over 5 weeks. That's an average of $" + avgCost + " per week."); //write "You have spent a total of $517 on groceries over 5 weeks. That's an average of $103.4 per week." to the console
 
 //Discounts
+var item = "midi controller"; //set item to the string "midi controller"
+var price = 75; //costs $75
+var discount = 10; //a 10% discount
+var tax = 8 //8% tax
+var totalPrice = price * ((100 - discount) / 100) * ((tax + 100) / 100); //calculate total price
+var noTax = price * ((100 - discount) / 100); //total price without tax
+console.log("Your " + item + " was originally $" + price + ", but after a " + discount + "% discount, it is now $" + noTax + " without tax, and $" + totalPrice + " with tax."); //write "Your midi controller was originally $75, but after a 10% discount, it is now $67.5 without tax, and $72.9 with tax." to the console
