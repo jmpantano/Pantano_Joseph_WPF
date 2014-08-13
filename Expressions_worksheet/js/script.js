@@ -18,6 +18,9 @@ var sparkySlice = pizza * slices % people; //find the remainder of whole slices
 console.log("Sparky got " + sparkySlice + " slices of pizza."); //write "Sparky got 0 slices of pizza." to the console
 
 //Average Shopping Bill
-
+var groceryCost = [100, 87, 120, 96, 114]; //array holding last 5 weeks of grocery bills
+var totalCost = groceryCost[0] + groceryCost[1] + groceryCost[2] + groceryCost[3] + groceryCost[4]; //total of grocery bills
+var avgCost = totalCost / 5; //divide totalCost by 5 to find average
+console.log("You have spent a total of $" + totalCost + " on groceries over 5 weeks. That's an average of $" + avgCost + " per week."); //write "You have spent a total of $517 on groceries over 5 weeks. That's an average of $103.4 per week." to the console
 
 //Discounts
